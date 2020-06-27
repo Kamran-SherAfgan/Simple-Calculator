@@ -1,0 +1,40 @@
+*{
+    /* font-weight: bolder; */
+    font-size: 20px;
+    
+ 
+}
+
+.main{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    margin-top: 20px;
+}
+
+.mirror{
+    width: 100%;
+    height: 80px;
+    border: 5px solid tomato;
+    background-color: darkgray;
+    font-size: 50px;
+    border-radius: 10px;
+}
+
+.main2{
+    border: 5px solid tomato;
+    border-style: ridge;
+    width: 43%;
+    margin: 0 317px;
+    text-align: center;
+    background-color: cornflowerblue;
+  
+ 
+}
+
+.btn{
+    margin: 40px;
+    border-color: darkgray;
+    
+  
+}

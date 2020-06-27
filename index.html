@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bootstrap-4.4.1-dist/css/bootstrap.css">
+</head>
+<body>
+
+    <div class="container main">
+        
+
+        <div class="row">
+            
+            <div class="col">
+
+                <input type="text" class="mirror" id="mirror" placeholder="0">
+
+            </div>
+            
+        </div>
+
+        <div class="container-fluid main2">
+
+         <div class="row">
+
+            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
+                <button class="btn" onclick="getNumber(1)" style="border-color: darkcyan; font-weight: bolder;">1</button>
+                 <button class="btn" onclick="getNumber(2)" style="border-color: darkcyan; font-weight: bold;">2</button>
+                <button class="btn" onclick="getNumber(3)" style="border-color: darkcyan; font-weight: bold;">3</button>
+                <button class="btn" onclick="getNumber('+')" style="border-color: darkcyan; font-weight: bold;">+</button>
+                <button class="btn" onclick="getNumber('-')" style="border-color: darkcyan; font-weight: bold;">-</button>
+            </div>
+
+         </div>
+
+        
+         <div class="row">
+
+            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12"">
+                <button class="btn" onclick="getNumber(4)" style="border-color: darkcyan; font-weight: bold;">4</button>
+                <button class="btn" onclick="getNumber(5)" style="border-color: darkcyan; font-weight: bold;">5</button>
+                <button class="btn" onclick="getNumber(6)" style="border-color: darkcyan; font-weight: bold;">6</button>
+                <button class="btn" onclick="getNumber('*')" style="border-color: darkcyan; font-weight: bold;">X</button>
+                <button class="btn" onclick="getNumber('/')" style="border-color: darkcyan; font-weight: bold;">/</button>
+             </div>
+
+         </div>
+
+        
+         <div class="row">
+
+            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12"">
+                <button class="btn btn1" onclick="getNumber(7)" style="border-color: darkcyan; font-weight: bold;">7</button>
+                <button class="btn btn1" onclick="getNumber(8)" style="border-color: darkcyan; font-weight: bold;">8</button>
+                <button class="btn btn1" onclick="getNumber(9)" style="border-color: darkcyan; font-weight: bold;">9</button>
+                <button class="btn btn1" onclick="clearResult()" style="color: red; border-color: darkcyan; font-weight: bold;">C</button>
+                <button class="btn" onclick="getNumber('%')" style="border-color: darkcyan; font-weight: bold;">%</button>
+            </div>
+
+         </div>
+
+        
+         <div class="row">
+
+            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12"">
+                <button class="btn btn1" onclick="getNumber(00)" style="border-color: darkcyan; font-weight: bold;">00</button>
+                <button class="btn btn1" onclick="getNumber(0)" style="border-color: darkcyan; font-weight: bold;">0</button>
+                <button class="btn btn1" onclick="getNumber(000)" style="border-color: darkcyan; font-weight: bold;">000</button>
+                <button class="btn btn1" onclick="getResult()" style="border-color: darkcyan; font-weight: bold;">=</button>
+                <button class="btn" onclick="getNumber('.')" style="border-color: darkcyan; font-weight: bold;">.</button>
+            </div>
+
+         </div>
+        </div>
+    </div>
+    
+</body>
+
+<script src="app.js"></script>
+</html>
