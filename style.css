@@ -1,5 +1,5 @@
 *{
-    /* font-weight: bolder; */
+   
     font-size: 20px;
     
  
@@ -13,28 +13,45 @@
 }
 
 .mirror{
-    width: 100%;
+    width: 500px;
     height: 80px;
-    border: 5px solid tomato;
-    background-color: darkgray;
+    border: 5px solid #99ccff;
+    background-color: #ccccff;
     font-size: 50px;
     border-radius: 10px;
 }
 
 .main2{
-    border: 5px solid tomato;
+    border: 5px solid #99ccff;
     border-style: ridge;
-    width: 43%;
-    margin: 0 317px;
+    width: 500px !important;
+    height: 300px;
+    margin: 0 px !important;
     text-align: center;
-    background-color: cornflowerblue;
+    background-color: #ccccff;
   
  
 }
 
 .btn{
-    margin: 40px;
-    border-color: darkgray;
+    margin: 10px;
+    border-color: #99ccff;
+    padding:15 20px 15px 20px !important;
+    text-shadow: 2px 2px 5px;
     
   
 }
+
+#del{
+    padding: 9px 35px 9px 35px;
+    width: 110px;
+    margin-right: 20px;
+}
+
+p{
+    font-size: 40px !important;
+    color: #42057a;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-shadow: 2px 5px 20px;
+}
+
